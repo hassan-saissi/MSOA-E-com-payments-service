@@ -18,6 +18,8 @@ Once a payment succeeds, Shipping must create a shipment for the order. Instead 
 
 ## 2. Flow
 
+![Orders, Payments, and Shipping sequence diagram](docs/orders_payments_shipping_sequence.png)
+
 1. The frontend sends `POST /api/payments` to Payments with the `orderId` and the payment method.
 2. Payments reads the order in Orders and checks it is awaiting payment.
 3. Payments updates the order to `PAID` in Orders.
