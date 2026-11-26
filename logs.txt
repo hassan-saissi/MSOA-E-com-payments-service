@@ -1,0 +1,1050 @@
+PS C:\Users\lenovo\MSOA-E-com-8-main\MSOA-E-com-payments-service> mvn payara-micro:start -X
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: C:\Program Files\Apache Software Foundation\apache-maven-3.9.16
+Java version: 17.0.8, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Program Files\Apache Software Foundation\apache-maven-3.9.16\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\lenovo\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\Apache Software Foundation\apache-maven-3.9.16\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\lenovo\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\lenovo\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\lenovo\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.msoa:MSOA-E-com-payments-service:war:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging war from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix payara-micro from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] Resolved plugin prefix payara-micro to fish.payara.maven.plugins:payara-micro-maven-plugin from repository null
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.msoa:MSOA-E-com-payments-service:war:1.0-SNAPSHOT
+[DEBUG] Tasks:   [payara-micro:start]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]
+[INFO] ----------------< com.msoa:MSOA-E-com-payments-service >----------------
+[INFO] Building MSOA-E-com-payments-service 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[DEBUG] Resolving plugin prefix payara-micro from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix payara-micro to fish.payara.maven.plugins:payara-micro-maven-plugin from repository null
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.msoa:MSOA-E-com-payments-service:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0:start (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifactItem>${artifactItem}</artifactItem>
+  <classpathArtifactItems>${classpathArtifactItems}</classpathArtifactItems>
+  <clientUrlPart>${netbeans.deploy.clientUrlPart}</clientUrlPart>
+  <commandLineOptions>
+    <option>
+      <key>--port</key>
+      <value>8085</value>
+    </option>${commandLineOptions}</commandLineOptions>
+  <contextRoot>${contextRoot}</contextRoot>
+  <copySystemProperties default-value="false">${copySystemProperties}</copySystemProperties>
+  <daemon default-value="false">${daemon}</daemon>
+  <debug default-value="false">${debug}</debug>
+  <deployWar default-value="false">true</deployWar>
+  <exploded default-value="false">${exploded}</exploded>
+  <hotDeploy>${hotDeploy}</hotDeploy>
+  <immediateExit default-value="false">${immediateExit}</immediateExit>
+  <javaCommandLineOptions>${javaCommandLineOptions}</javaCommandLineOptions>
+  <javaPath>${javaPath}</javaPath>
+  <payaraMicroAbsolutePath>${payaraMicroAbsolutePath}</payaraMicroAbsolutePath>
+  <payaraVersion default-value="5.2021.5">6.2023.12</payaraVersion>
+  <skip default-value="false">${skip}</skip>
+  <uberJarClassifier default-value="microbundle">${uberJarClassifier}</uberJarClassifier>
+  <useUberJar default-value="false">${useUberJar}</useUberJar>
+  <mavenProject default-value="${project}"/>
+  <mavenSession default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[INFO]
+[INFO] --- payara-micro:1.4.0:start (default-cli) @ MSOA-E-com-payments-service ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for repository.jboss.org (http://repository.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots.jboss.org (http://snapshots.jboss.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for oss.sonatype.org/jboss-snapshots (http://oss.sonatype.org/content/repositories/jboss-snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=2379500, ConflictMarker.markTime=664400, ConflictMarker.nodeCount=666, ConflictIdSorter.graphTime=1589600, ConflictIdSorter.topsortTime=721700, ConflictIdSorter.conflictIdCount=107, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=11004700, ConflictResolver.conflictItemCount=236, DfDependencyCollector.collectTime=1247140000, DfDependencyCollector.transformTime=18672400}
+[DEBUG] fish.payara.maven.plugins:payara-micro-maven-plugin:jar:1.4.0
+[DEBUG]    org.apache.maven:maven-core:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.6.3:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.25:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-builder-support:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.6.3:compile
+[DEBUG]       org.apache.maven:maven-resolver-provider:jar:3.6.3:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-impl:jar:1.4.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-api:jar:1.4.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-spi:jar:1.4.1:compile
+[DEBUG]       org.apache.maven.resolver:maven-resolver-util:jar:1.4.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.3.4:compile
+[DEBUG]          javax.enterprise:cdi-api:jar:1.0:compile
+[DEBUG]             javax.annotation:jsr250-api:jar:1.0:compile
+[DEBUG]       org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.4:compile
+[DEBUG]       com.google.inject:guice:jar:no_aop:4.2.1:compile
+[DEBUG]          aopalliance:aopalliance:jar:1.0:compile
+[DEBUG]          com.google.guava:guava:jar:30.1.1-jre:compile (version managed from default)
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.1:compile
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[DEBUG]             org.checkerframework:checker-qual:jar:3.8.0:compile
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.5.1:compile
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.4.0:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.6.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:2.1.0:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.8.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.6.3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.6.3:compile
+[DEBUG]    org.twdata.maven:mojo-executor:jar:2.3.1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.25:compile
+[DEBUG]    org.apache.maven.plugins:maven-dependency-plugin:jar:3.2.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.1.1:compile
+[DEBUG]          org.eclipse.aether:aether-spi:jar:0.9.0.M2:compile
+[DEBUG]          org.eclipse.aether:aether-impl:jar:0.9.0.M2:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0:compile
+[DEBUG]          org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.9.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.9.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.9.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.7.1:compile
+[DEBUG]             org.apache.xbean:xbean-reflect:jar:3.7:compile
+[DEBUG]             com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.5.8:compile
+[DEBUG]             commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.11:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.9.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-skin-model:jar:1.9.2:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml:jar:1.9.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.2:compile
+[DEBUG]          org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]             commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]          org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]             commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]             commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]             commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]             dom4j:dom4j:jar:1.1:compile
+[DEBUG]             oro:oro:jar:2.0.8:compile
+[DEBUG]          commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:4.2.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.20:compile
+[DEBUG]          org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]          org.tukaani:xz:jar:1.8:runtime
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.3:compile
+[DEBUG]          org.ow2.asm:asm:jar:8.0.1:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.2.0:compile
+[DEBUG]       org.apache.maven.shared:maven-artifact-transfer:jar:0.13.1:compile
+[DEBUG]       org.apache.commons:commons-collections4:jar:4.2:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.eclipse.aether:aether-api:jar:0.9.0.M2:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG] Created new class realm plugin>fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0
+[DEBUG] Importing foreign packages into class realm plugin>fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0
+[DEBUG]   Included: fish.payara.maven.plugins:payara-micro-maven-plugin:jar:1.4.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.25
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-builder-support:jar:3.6.3
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: javax.enterprise:cdi-api:jar:1.0
+[DEBUG]   Included: javax.annotation:jsr250-api:jar:1.0
+[DEBUG]   Included: org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.3.4
+[DEBUG]   Included: com.google.inject:guice:jar:no_aop:4.2.1
+[DEBUG]   Included: aopalliance:aopalliance:jar:1.0
+[DEBUG]   Included: com.google.guava:guava:jar:30.1.1-jre
+[DEBUG]   Included: com.google.guava:failureaccess:jar:1.0.1
+[DEBUG]   Included: com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:3.0.2
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:3.8.0
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.5.1
+[DEBUG]   Included: com.google.j2objc:j2objc-annotations:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.4.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.1.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.8.1
+[DEBUG]   Included: org.twdata.maven:mojo-executor:jar:2.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.9.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.9.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.9.1
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.7
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.8
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.11
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.9.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-skin-model:jar:1.9.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.9.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.2
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:4.2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.20
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.3
+[DEBUG]   Included: org.ow2.asm:asm:jar:8.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.13.1
+[DEBUG]   Included: org.apache.commons:commons-collections4:jar:4.2
+[DEBUG] Loading mojo fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0:start from plugin realm ClassRealm[plugin>fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'fish.payara.maven.plugins:payara-micro-maven-plugin:1.4.0:start:default-cli' with basic configurator -->
+[DEBUG]   (f) artifactItem = null:null:?:jar
+[DEBUG]   (f) classpathArtifactItems = []
+[DEBUG]   (s) key = --port
+[DEBUG]   (s) value = 8085
+[DEBUG]   (f) commandLineOptions = [fish.payara.maven.plugins.micro.Option@5856dbe4]
+[DEBUG]   (f) copySystemProperties = false
+[DEBUG]   (f) daemon = false
+[DEBUG]   (f) debug = false
+[DEBUG]   (f) deployWar = true
+[DEBUG]   (f) exploded = false
+[DEBUG]   (f) immediateExit = false
+[DEBUG]   (f) javaCommandLineOptions = []
+[DEBUG]   (f) payaraVersion = 6.2023.12
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) uberJarClassifier = microbundle
+[DEBUG]   (f) useUberJar = false
+[DEBUG]   (f) mavenProject = MavenProject: com.msoa:MSOA-E-com-payments-service:1.0-SNAPSHOT @ C:\Users\lenovo\MSOA-E-com-8-main\MSOA-E-com-payments-service\pom.xml
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@5a058be5
+[DEBUG] -- end configuration --
+[DEBUG] Running executeMojo for Plugin [org.apache.maven.plugins:maven-dependency-plugin]
+[DEBUG] Attempting to load plugin Plugin [org.apache.maven.plugins:maven-dependency-plugin] using pluginManager org.apache.maven.plugin.DefaultBuildPluginManager@51e3d37e and repositories [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=400400, ConflictMarker.markTime=171400, ConflictMarker.nodeCount=530, ConflictIdSorter.graphTime=164400, ConflictIdSorter.topsortTime=55000, ConflictIdSorter.conflictIdCount=85, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1588700, ConflictResolver.conflictItemCount=216, DfDependencyCollector.collectTime=208332600, DfDependencyCollector.transformTime=2414800}
+[DEBUG] org.apache.maven.plugins:maven-dependency-plugin:jar:3.1.2
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:2.0.0:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4:compile
+[DEBUG]    commons-io:commons-io:jar:2.6:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.9:compile
+[DEBUG]    org.apache.maven.doxia:doxia-core:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.7.1:compile
+[DEBUG]          org.apache.xbean:xbean-reflect:jar:3.7:compile
+[DEBUG]          com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.5:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.8:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]       org.apache.httpcomponents:httpcore:jar:4.4.11:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-skin-model:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.9:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.2:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]       org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]          commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]          commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]          dom4j:dom4j:jar:1.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          sslext:sslext:jar:1.2-0:compile
+[DEBUG]          org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]             antlr:antlr:jar:2.7.2:compile
+[DEBUG]          org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]          org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:4.2.2:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.20:compile
+[DEBUG]       org.iq80.snappy:snappy:jar:0.4:compile
+[DEBUG]       org.tukaani:xz:jar:1.8:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.3.0:compile
+[DEBUG]    org.apache.maven.shared:file-management:jar:3.0.0:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-io:jar:3.0.0:compile
+[DEBUG]          org.apache.maven:maven-compat:jar:3.0:compile
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:2.10:compile
+[DEBUG]    org.codehaus.plexus:plexus-io:jar:3.2.0:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.1:compile
+[DEBUG]       org.ow2.asm:asm:jar:7.3.1:compile (version managed from default)
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:3.0.1:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-artifact-transfer:jar:0.11.0:compile
+[DEBUG]       commons-codec:commons-codec:jar:1.11:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    commons-collections:commons-collections:jar:3.2.2:compile
+[DEBUG]    classworlds:classworlds:jar:1.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-dependency-plugin:jar:3.1.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:2.0.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.7.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.9
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.7
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.5
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.5.8
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.4.11
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-skin-model:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml5:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-10
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.2
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:4.2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.20
+[DEBUG]   Included: org.iq80.snappy:snappy:jar:0.4
+[DEBUG]   Included: org.tukaani:xz:jar:1.8
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.3.0
+[DEBUG]   Included: org.apache.maven.shared:file-management:jar:3.0.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-io:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-analyzer:jar:1.11.1
+[DEBUG]   Included: org.ow2.asm:asm:jar:7.3.1
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:3.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.0
+[DEBUG]   Included: org.apache.maven.shared:maven-artifact-transfer:jar:0.11.0
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.11
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.2
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-dependency-plugin:3.1.2:get from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-dependency-plugin:3.1.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-dependency-plugin:3.1.2:get:null' with basic configurator -->
+[DEBUG]   (s) groupId = fish.payara.extras
+[DEBUG]   (s) artifactId = payara-micro
+[DEBUG]   (s) version = 6.2023.12
+[DEBUG]   (f) transitive = false
+[DEBUG]   (s) packaging = jar
+[DEBUG]   (f) pomRemoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+   blocked: false
+]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5a058be5
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] Resolving fish.payara.extras:payara-micro:jar:6.2023.12
+[INFO] Starting payara-micro from path: C:\Users\lenovo\.m2\repository\fish\payara\extras\payara-micro\6.2023.12\payara-micro-6.2023.12.jar
+[DEBUG] Starting Payara Micro with the these arguments: [java, -Dgav=com.msoa:MSOA-E-com-payments-service:1.0-SNAPSHOT, -jar, C:\Users\lenovo\.m2\repository\fish\payara\extras\payara-micro\6.2023.12\payara-micro-6.2023.12.jar, --deploy, C:\Users\lenovo\MSOA-E-com-8-main\MSOA-E-com-payments-service\target\payments-service.war, --port, 8085]
+[2026-11-18T18:15:32.337+0100] [] [WARNING] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022132337] [levelValue: 900] Payara Micro Runtime directory is located in a temporary file location which can be cleaned by system processes.
+
+[2026-11-18T18:15:32.368+0100] [] [INFO] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022132368] [levelValue: 800] Payara Micro Runtime directory is located at C:\Users\lenovo\AppData\Local\Temp\payaramicro-rt11004031511311003353tmp
+
+[2026-11-18T18:15:32.382+0100] [] [INFO] [] [fish.payara.micro.boot.runtime.PayaraMicroRuntimeBuilder] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022132382] [levelValue: 800] Built Payara Micro Runtime
+
+[2026-11-18T18:15:47.048+0100] [] [INFO] [] [fish.payara.boot.runtime.BootCommand] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022147048] [levelValue: 800] Boot Command set returned with result SUCCESS : PlainTextActionReporterSUCCESSDescription: set AdminCommandnull
+    configs.config.server-config.network-config.network-listeners.network-listener.http-listener.port=8085
+
+
+[2026-11-18T18:15:47.084+0100] [] [INFO] [] [fish.payara.boot.runtime.BootCommand] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022147084] [levelValue: 800] Boot Command set returned with result SUCCESS : PlainTextActionReporterSUCCESSDescription: set AdminCommandnull
+    configs.config.server-config.hazelcast-config-specific-configuration.lite=false
+
+
+[2026-11-18T18:15:47.112+0100] [] [INFO] [] [fish.payara.boot.runtime.BootCommand] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022147112] [levelValue: 800] Boot Command set returned with result SUCCESS : PlainTextActionReporterSUCCESSDescription: set AdminCommandnull
+    hazelcast-runtime-configuration.host-aware-partitioning=true
+
+
+[2026-11-18T18:15:47.123+0100] [] [INFO] [] [fish.payara.boot.runtime.BootCommand] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022147123] [levelValue: 800] Boot Command set returned with result SUCCESS : PlainTextActionReporterSUCCESSDescription: set AdminCommandnull
+    hazelcast-runtime-configuration.discovery-mode=multicast
+
+
+[2026-11-18T18:15:47.871+0100] [] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1795022147138] [timeMillis: 1795022147871] [levelValue: 800] Registered fish.payara.ha.hazelcast.store.HazelcastBackingStoreFactoryProxy for persistence-type = hazelcast in BackingStoreFactoryRegistry
+
+[2026-11-18T18:15:48.245+0100] [] [WARNING] [] [com.hazelcast.instance.AddressPicker] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022148245] [levelValue: 900] [LOCAL] [development] [5.3.6] Ignoring TCP_KEEPCOUNT. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_probes in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely.
+
+[2026-11-18T18:15:48.245+0100] [] [WARNING] [] [com.hazelcast.instance.AddressPicker] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022148245] [levelValue: 900] [LOCAL] [development] [5.3.6] Ignoring TCP_KEEPIDLE. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_time in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely.
+
+[2026-11-18T18:15:48.245+0100] [] [WARNING] [] [com.hazelcast.instance.AddressPicker] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022148245] [levelValue: 900] [LOCAL] [development] [5.3.6] Ignoring TCP_KEEPINTERVAL. It seems your JDK does not support jdk.net.ExtendedSocketOptions on this OS. Try upgrading to the latest JDK or check with your JDK vendor.Alternatively, on Linux, configure tcp_keepalive_intvl in the kernel (affecting default keep-alive configuration for all sockets): For more info see https://tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/. If this isn't dealt with, idle connections could be closed prematurely.
+
+[2026-11-18T18:15:51.908+0100] [] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022151908] [levelValue: 800] Hazelcast Instance Bound to JNDI at payara/Hazelcast
+
+[2026-11-18T18:15:51.908+0100] [] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022151908] [levelValue: 800] JSR107 Caching Provider Bound to JNDI at payara/CachingProvider
+
+[2026-11-18T18:15:51.909+0100] [] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022151909] [levelValue: 800] JSR107 Default Cache Manager Bound to JNDI at payara/CacheManager
+
+[2026-11-18T18:15:52.130+0100] [] [INFO] [NCLS-CORE-00101] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022152130] [levelValue: 800] Network Listener http-listener started in: 12ms - bound to [/0.0.0.0:8085]
+
+[2026-11-18T18:15:52.131+0100] [] [INFO] [NCLS-CORE-00058] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022152131] [levelValue: 800] Network listener https-listener on port 8443 disabled per domain.xml
+
+[2026-11-18T18:15:52.132+0100] [] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1795022147133] [timeMillis: 1795022152132] [levelValue: 800] Grizzly 4.0.0 started in: 4,496ms - bound to [http-listener:8085]
+
+[2026-11-18T18:15:52.165+0100] [] [INFO] [] [io.opentelemetry.api.GlobalOpenTelemetry] [tid: _ThreadID=25 _ThreadName=RunLevelControllerThread-1795022147131] [timeMillis: 1795022152165] [levelValue: 800] AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+
+[2026-11-18T18:15:52.206+0100] [] [INFO] [] [fish.payara.nucleus.cluster.PayaraCluster] [tid: _ThreadID=84 _ThreadName=Executor-Service-5] [timeMillis: 1795022152206] [levelValue: 800] [[
+  Data Grid Status
+Payara Data Grid State: DG Version: 5 DG Name: development DG Size: 1
+Instances: {
+ DataGrid: development Name: Tame-Medusafish Lite: false This: true UUID: f6855c8b-e1bf-46b2-bbc5-2b672868f14f Address: /192.168.117.1:6900
+}]]
+
+[2026-11-18T18:15:52.215+0100] [] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022152215] [levelValue: 800] Payara Micro 6.2023.12 #badassmicrofish (9) startup time : Embedded (14,739ms), startup services(5,092ms), total(19,831ms)
+
+[2026-11-18T18:15:52.311+0100] [] [INFO] [NCLS-JMX-00006] [javax.enterprise.system.jmx] [tid: _ThreadID=90 _ThreadName=Thread-6] [timeMillis: 1795022152311] [levelValue: 800] JMXStartupService has disabled JMXConnector system
+
+[2026-11-18T18:15:52.768+0100] [] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022152768] [levelValue: 800] No deployment transformer implementation found.
+
+[2026-11-18T18:15:53.082+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153082] [levelValue: 900] [[
+  The SSL certificate with alias baltimorecodesigningca has expired: [
+[
+  Version: V3
+  Subject: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 25303680192668640771588317139003263891033815944721015465395269092384705240935316941838442381318806010070626362319395690314791313398138936591948695530545680427400509758324933089823696610566743637339935203695013186947157183941988417011248366865479094246311348287906754288731048802378536028776275677190628623060960560765769168615982071922756472282835656320245320962403020896702650905611966212573124822842455100295487468363503270984024841945110064223684830737458073325215630484860211321235448938321322097099674375468321540270490386797226404084654487136142666695848215824414852632537689282042133811638922367737001775655789
+  public exponent: 65537
+  Validity: [From: Wed May 17 14:01:00 WET 2000,
+               To: Sun May 18 00:59:00 WEST 2025]
+  Issuer: CN=Baltimore CyberTrust Code Signing Root, OU=CyberTrust, O=Baltimore, C=IE
+  SerialNumber: [    020000bf]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:3
+]
+
+[2]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  codeSigning
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: C8 41 34 5C 15 15 04 E5   40 F2 D1 AB 9A 6F 24 92  .A4\....@....o$.
+0010: 7A 87 42 5A                                        z.BZ
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 52 74 AA 95 4B 22 8C C7   3D 96 A4 FE 5D FA 2F B5  Rt..K"..=...]./.
+0010: BC EB F0 0B E9 56 38 1D   D1 6D 0D A1 BC 68 8B F0  .....V8..m...h..
+0020: C5 80 A5 24 34 FD F2 96   18 11 86 A1 36 F5 37 E7  ...$4.......6.7.
+0030: 54 40 D5 64 1F C3 5F 70   42 6B 2D 39 C7 9E 52 05  T@.d.._pBk-9..R.
+0040: CE E7 6A 72 D2 8D 72 3F   47 50 83 AB C7 8D 25 C9  ..jr..r?GP....%.
+0050: B0 E3 A7 53 16 95 A6 6A   53 EA 18 9D 8F 78 A9 77  ...S...jS....x.w
+0060: 77 1A F9 B4 97 47 59 88   27 28 B5 CA E1 2E D7 3E  w....GY.'(.....>
+0070: 0E A2 0D B8 22 44 03 E3   D1 63 B0 41 3A A1 F5 A4  ...."D...c.A:...
+0080: 2D F7 76 1E 04 54 99 78   32 40 D7 2B 7C 4D BA A6  -.v..T.x2@.+.M..
+0090: 9C B0 79 6E 07 BE 8C EC   EE D7 38 69 5B C1 0C 56  ..yn......8i[..V
+00A0: 68 9F FE EB D1 E1 C8 88   F9 F2 CD 7F BE 85 B4 44  h..............D
+00B0: 67 00 50 3E F4 26 03 64   EA 77 7D E8 5E 3E 1C 37  g.P>.&.d.w..^>.7
+00C0: 47 C8 D6 EA A4 F3 36 3C   97 C2 39 72 05 94 19 25  G.....6<..9r...%
+00D0: C3 D7 37 41 0F C1 1F 87   8A FD AA BE E9 B1 64 57  ..7A..........dW
+00E0: E4 DB 92 A1 CF E1 49 E8   3B 1F 91 13 5A C3 8F D9  ......I.;...Z...
+00F0: 25 58 49 80 47 0F C6 03   AE AC E3 BF B7 C0 AA 2A  %XI.G..........*
+
+]]]
+
+[2026-11-18T18:15:53.090+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153090] [levelValue: 900] [[
+  The SSL certificate with alias cert_5_baltimore_cybertrust_root5 has expired: [
+[
+  Version: V3
+  Subject: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 20579176651421167987106471718888186309534186253587759121109122482694167416584428920295678216035822449451639581023765122994089008826314029843654807108803739729565431642116323937940944378450034252354609020536286175863324156219063038927409933070688727356676027216359532593504366119272034244698731524943132462329205729047681997715455240148827523651706429854757422624117805863121520494307655271426986078917217383478420381375139154341613794371303682232583316393601620034638044186782252195438345309455714637508276892061355357785328168602107026282695945834955006612147350315937204256563720794300123948598669913435346712336953
+  public exponent: 65537
+  Validity: [From: Fri May 12 18:46:00 WET 2000,
+               To: Tue May 13 00:59:00 WEST 2025]
+  Issuer: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  SerialNumber: [    020000b9]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:3
+]
+
+[2]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E5 9D 59 30 82 47 58 CC   AC FA 08 54 36 86 7B 3A  ..Y0.GX....T6..:
+0010: B5 04 4D F0                                        ..M.
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 85 0C 5D 8E E4 6F 51 68   42 05 A0 DD BB 4F 27 25  ..]..oQhB....O'%
+0010: 84 03 BD F7 64 FD 2D D7   30 E3 A4 10 17 EB DA 29  ....d.-.0......)
+0020: 29 B6 79 3F 76 F6 19 13   23 B8 10 0A F9 58 A4 D4  ).y?v...#....X..
+0030: 61 70 BD 04 61 6A 12 8A   17 D5 0A BD C5 BC 30 7C  ap..aj........0.
+0040: D6 E9 0C 25 8D 86 40 4F   EC CC A3 7E 38 C6 37 11  ...%..@O....8.7.
+0050: 4F ED DD 68 31 8E 4C D2   B3 01 74 EE BE 75 5E 07  O..h1.L...t..u^.
+0060: 48 1A 7F 70 FF 16 5C 84   C0 79 85 B8 05 FD 7F BE  H..p..\..y......
+0070: 65 11 A3 0F C0 02 B4 F8   52 37 39 04 D5 A9 31 7A  e.......R79...1z
+0080: 18 BF A0 2A F4 12 99 F7   A3 45 82 E3 3C 5E F5 9D  ...*.....E..<^..
+0090: 9E B5 C8 9E 7C 2E C8 A4   9E 4E 08 14 4B 6D FD 70  .........N..Km.p
+00A0: 6D 6B 1A 63 BD 64 E6 1F   B7 CE F0 F2 9F 2E BB 1B  mk.c.d..........
+00B0: B7 F2 50 88 73 92 C2 E2   E3 16 8D 9A 32 02 AB 8E  ..P.s.......2...
+00C0: 18 DD E9 10 11 EE 7E 35   AB 90 AF 3E 30 94 7A D0  .......5...>0.z.
+00D0: 33 3D A7 65 0F F5 FC 8E   9E 62 CF 47 44 2C 01 5D  3=.e.....b.GD,.]
+00E0: BB 1D B5 32 D2 47 D2 38   2E D0 FE 81 DC 32 6A 1E  ...2.G.8.....2j.
+00F0: B5 EE 3C D5 FC E7 81 1D   19 C3 24 42 EA 63 39 A9  ..<.......$B.c9.
+
+]]]
+
+[2026-11-18T18:15:53.094+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153094] [levelValue: 900] [[
+  The SSL certificate with alias trustcenterclass4caii has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 22950370039933500676994989118201491097790297411405309828721982368556708684580161622224637768016414419477529963599377981340438776506795541254817783798418326710720463181372714973230604579556287945811624245763246009196772610082450014107132476643300083788431376735201512678784489143877422604292527202843784897126841333903443753475529671859748593013021081594403126471577726782843434999907620367670453791981120870116149692427694170838256569306309135837987885326993193841760664803070946552707041820505651909863032902035729834001457174684055280619989407009638893348920517767609881939396168532536281725241047007763152761708687
+  public exponent: 65537
+  Validity: [From: Thu Mar 23 14:10:23 WET 2006,
+               To: Wed Dec 31 23:59:59 WEST 2025]
+  Issuer: CN=TC TrustCenter Class 4 CA II, OU=TC TrustCenter Class 4 CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: [    05c00001 000241d0 060a4dce 7510]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[2]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1F EA BB 3E 25 1B 06 BD   A5 DD 62 05 7E C6 4C 5A  ...>%.....b...LZ
+0010: BF E8 0F 43                                        ...C
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 58 A4 2B 9B 4C F7 E4 A4   92 A4 9C 65 98 19 62 22  X.+.L......e..b"
+0010: FC 72 32 E9 04 5D C4 C4   70 2D 5A 46 DE 4C 47 8A  .r2..]..p-ZF.LG.
+0020: 25 B9 A2 DD EE EA 12 AF   48 8D EF 2B 67 DB 3B CC  %.......H..+g.;.
+0030: 34 98 2A F7 08 47 FF 22   AF 7B F1 F4 EB E2 38 02  4.*..G."......8.
+0040: 33 18 75 28 1B 9E 76 65   AC 88 03 72 F2 38 47 1D  3.u(..ve...r.8G.
+0050: 8C F5 9F 0A 88 53 10 14   BB 80 E5 0C B3 5D 8D 17  .....S.......]..
+0060: EE 1E 19 1C 86 8D 14 67   78 8C 92 CB 1E 21 49 F7  .......gx....!I.
+0070: 7F D3 18 BF 9C 79 F8 5D   08 79 B5 AA 6A 4D 92 36  .....y.].y..jM.6
+0080: 6C BC 79 EB 0E 3D 79 8A   D8 F6 A3 56 70 5D DE DB  l.y..=y....Vp]..
+0090: 4F 79 D2 7A D2 95 5C 86   27 65 BE A0 D3 07 81 40  Oy.z..\.'e.....@
+00A0: 55 DD 10 CB E0 4B 88 82   C0 90 7D 38 E7 BF 96 E1  U....K.....8....
+00B0: 97 BA 9A AB 42 0F D3 9F   D8 9E 15 33 11 CB F7 82  ....B......3....
+00C0: 79 F5 B5 C0 41 56 92 E1   DF 55 03 AD 48 CF D3 F2  y...AV...U..H...
+00D0: 2E B1 C7 2D 56 4C 64 74   2A 31 CE DC 75 A9 54 47  ...-VLdt*1..u.TG
+00E0: A4 A7 42 72 09 E7 E1 02   A6 47 B2 04 CD 42 13 E1  ..Br.....G...B..
+00F0: 61 0C E0 78 3A 22 20 A2   1C 60 42 86 87 F7 A5 E6  a..x:" ..`B.....
+
+]]]
+
+[2026-11-18T18:15:53.096+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153096] [levelValue: 900] [[
+  The SSL certificate with alias cert_81_trustis_fps_root_ca81 has expired: [
+[
+  Version: V3
+  Subject: OU=Trustis FPS Root CA, O=Trustis Limited, C=GB
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 24908633667180321967674873268814531635547921938344065146546904438489502673823487510936146573960061486273718694334781317348708908262947651303078579882700224692570831312368945979170373153648052597761950956395913615810736512525962630740585310636521594672085066580175665043758918430925599500808969653476864564698808991702431004110644739915567322643581281788777374680963817281333282843028696667329131753328247995199072853681672136148214770992098772732734082912115629981882473191620546572069699037050136366328673247895507219755706167110912566425482228784709797122932080366498493920541761658523188072646247208026589367964269
+  public exponent: 65537
+  Validity: [From: Tue Dec 23 12:14:06 WET 2003,
+               To: Sun Jan 21 12:36:54 WEST 2024]
+  Issuer: OU=Trustis FPS Root CA, O=Trustis Limited, C=GB
+  SerialNumber: [    1b1fadb6 20f924d3 366bf7c7 f18ca059]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: BA FA 71 25 79 8B 57 41   25 21 86 0B 71 EB B2 64  ..q%y.WA%!..q..d
+0010: 0E 8B 21 67                                        ..!g
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: BA FA 71 25 79 8B 57 41   25 21 86 0B 71 EB B2 64  ..q%y.WA%!..q..d
+0010: 0E 8B 21 67                                        ..!g
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 7E 58 FF FD 35 19 7D 9C   18 4F 9E B0 2B BC 8E 8C  .X..5....O..+...
+0010: 14 FF 2C A0 DA 47 5B C3   EF 81 2D AF 05 EA 74 48  ..,..G[...-...tH
+0020: 5B F3 3E 4E 07 C7 6D C5   B3 93 CF 22 35 5C B6 3F  [.>N..m...."5\.?
+0030: 75 27 5F 09 96 CD A0 FE   BE 40 0C 5C 12 55 F8 93  u'_......@.\.U..
+0040: 82 CA 29 E9 5E 3F 56 57   8B 38 36 F7 45 1A 4C 28  ..).^?VW.86.E.L(
+0050: CD 9E 41 B8 ED 56 4C 84   A4 40 C8 B8 B0 A5 2B 69  ..A..VL..@....+i
+0060: 70 04 6A C3 F8 D4 12 32   F9 0E C3 B1 DC 32 84 44  p.j....2.....2.D
+0070: 2C 6F CB 46 0F EA 66 41   0F 4F F1 58 A5 A6 0D 0D  ,o.F..fA.O.X....
+0080: 0F 61 DE A5 9E 5D 7D 65   A1 3C 17 E7 A8 55 4E EF  .a...].e.<...UN.
+0090: A0 C7 ED C6 44 7F 54 F5   A3 E0 8F F0 7C 55 22 8F  ....D.T......U".
+00A0: 29 B6 81 A3 E1 6D 4E 2C   1B 80 67 EC AD 20 9F 0C  )....mN,..g.. ..
+00B0: 62 61 D5 97 FF 43 ED 2D   C1 DA 5D 29 2A 85 3F AC  ba...C.-..])*.?.
+00C0: 65 EE 86 0F 05 8D 90 5F   DF EE 9F F4 BF EE 1D FB  e......_........
+00D0: 98 E4 7F 90 2B 84 78 10   0E 6C 49 53 EF 15 5B 65  ....+.x..lIS..[e
+00E0: 46 4A 5D AF BA FB 3A 72   1D CD F6 25 88 1E 97 CC  FJ]...:r...%....
+00F0: 21 9C 29 01 0D 65 EB 57   D9 F3 57 96 BB 48 CD 81  !.)..e.W..W..H..
+
+]]]
+
+[2026-11-18T18:15:53.097+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153097] [levelValue: 900] [[
+  The SSL certificate with alias baltimorecybertrustca has expired: [
+[
+  Version: V3
+  Subject: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 20579176651421167987106471718888186309534186253587759121109122482694167416584428920295678216035822449451639581023765122994089008826314029843654807108803739729565431642116323937940944378450034252354609020536286175863324156219063038927409933070688727356676027216359532593504366119272034244698731524943132462329205729047681997715455240148827523651706429854757422624117805863121520494307655271426986078917217383478420381375139154341613794371303682232583316393601620034638044186782252195438345309455714637508276892061355357785328168602107026282695945834955006612147350315937204256563720794300123948598669913435346712336953
+  public exponent: 65537
+  Validity: [From: Fri May 12 18:46:00 WET 2000,
+               To: Tue May 13 00:59:00 WEST 2025]
+  Issuer: CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE
+  SerialNumber: [    020000b9]
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:3
+]
+
+[2]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[3]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E5 9D 59 30 82 47 58 CC   AC FA 08 54 36 86 7B 3A  ..Y0.GX....T6..:
+0010: B5 04 4D F0                                        ..M.
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 85 0C 5D 8E E4 6F 51 68   42 05 A0 DD BB 4F 27 25  ..]..oQhB....O'%
+0010: 84 03 BD F7 64 FD 2D D7   30 E3 A4 10 17 EB DA 29  ....d.-.0......)
+0020: 29 B6 79 3F 76 F6 19 13   23 B8 10 0A F9 58 A4 D4  ).y?v...#....X..
+0030: 61 70 BD 04 61 6A 12 8A   17 D5 0A BD C5 BC 30 7C  ap..aj........0.
+0040: D6 E9 0C 25 8D 86 40 4F   EC CC A3 7E 38 C6 37 11  ...%..@O....8.7.
+0050: 4F ED DD 68 31 8E 4C D2   B3 01 74 EE BE 75 5E 07  O..h1.L...t..u^.
+0060: 48 1A 7F 70 FF 16 5C 84   C0 79 85 B8 05 FD 7F BE  H..p..\..y......
+0070: 65 11 A3 0F C0 02 B4 F8   52 37 39 04 D5 A9 31 7A  e.......R79...1z
+0080: 18 BF A0 2A F4 12 99 F7   A3 45 82 E3 3C 5E F5 9D  ...*.....E..<^..
+0090: 9E B5 C8 9E 7C 2E C8 A4   9E 4E 08 14 4B 6D FD 70  .........N..Km.p
+00A0: 6D 6B 1A 63 BD 64 E6 1F   B7 CE F0 F2 9F 2E BB 1B  mk.c.d..........
+00B0: B7 F2 50 88 73 92 C2 E2   E3 16 8D 9A 32 02 AB 8E  ..P.s.......2...
+00C0: 18 DD E9 10 11 EE 7E 35   AB 90 AF 3E 30 94 7A D0  .......5...>0.z.
+00D0: 33 3D A7 65 0F F5 FC 8E   9E 62 CF 47 44 2C 01 5D  3=.e.....b.GD,.]
+00E0: BB 1D B5 32 D2 47 D2 38   2E D0 FE 81 DC 32 6A 1E  ...2.G.8.....2j.
+00F0: B5 EE 3C D5 FC E7 81 1D   19 C3 24 42 EA 63 39 A9  ..<.......$B.c9.
+
+]]]
+
+[2026-11-18T18:15:53.101+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153101] [levelValue: 900] [[
+  The SSL certificate with alias trustcenteruniversalcai has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 20761831650713250220992367249279448677953452319887827967801560492350357437879560092660873027410905123273317295238275517715638988998303289502013788828467105675146106868970454484005338000243412291422678223111300354865514453056496621169704822477649481709218843857648517883397369463578915797602451292416616256424065036088646003260839217580851539266093044157104785329597787721168767142092683919194526577567587576892019252595663037822470550268965647974257577851145049533204916518651483949191533807189553058992939101623913789153867057893930297901020176760841009269510868046371556731297987469275760729594925323261146753610979
+  public exponent: 65537
+  Validity: [From: Wed Mar 22 15:54:28 WET 2006,
+               To: Wed Dec 31 23:59:59 WEST 2025]
+  Issuer: CN=TC TrustCenter Universal CA I, OU=TC TrustCenter Universal CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: [    1da20001 0002ecb7 6080788d b606]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+]
+
+[2]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 92 A4 75 2C A4 9E BE 81   44 EB 79 FC 8A C5 95 A5  ..u,....D.y.....
+0010: EB 10 75 73                                        ..us
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 28 D2 E0 86 D5 E6 F8 7B   F0 97 DC 22 6B 3B 95 14  (.........."k;..
+0010: 56 0F 11 30 A5 9A 4F 3A   B0 3A E0 06 CB 65 F5 ED  V..0..O:.:...e..
+0020: C6 97 27 FE 25 F2 57 E6   5E 95 8C 3E 64 60 15 5A  ..'.%.W.^..>d`.Z
+0030: 7F 2F 0D 01 C5 B1 60 FD   45 35 CF F0 B2 BF 06 D9  ./....`.E5......
+0040: EF 5A BE B3 62 21 B4 D7   AB 35 7C 53 3E A6 27 F1  .Z..b!...5.S>.'.
+0050: A1 2D DA 1A 23 9D CC DD   EC 3C 2D 9E 27 34 5D 0F  .-..#....<-.'4].
+0060: C2 36 79 BC C9 4A 62 2D   ED 6B D9 7D 41 43 7C B6  .6y..Jb-.k..AC..
+0070: AA CA ED 61 B1 37 82 15   09 1A 8A 16 30 D8 EC C9  ...a.7......0...
+0080: D6 47 72 78 4B 10 46 14   8E 5F 0E AF EC C7 2F AB  .GrxK.F.._..../.
+0090: 10 D7 B6 F1 6E EC 86 B2   C2 E8 0D 92 73 DC A2 F4  ....n.......s...
+00A0: 0F 3A BF 61 23 10 89 9C   48 40 6E 70 00 B3 D3 BA  .:.a#...H@np....
+00B0: 37 44 58 11 7A 02 6A 88   F0 37 34 F0 19 E9 AC D4  7DX.z.j..74.....
+00C0: 65 73 F6 69 8C 64 94 3A   79 85 29 B0 16 2B 0C 82  es.i.d.:y.)..+..
+00D0: 3F 06 9C C7 FD 10 2B 9E   0F 2C B6 9E E3 15 BF D9  ?.....+..,......
+00E0: 36 1C BA 25 1A 52 3D 1A   EC 22 0C 1C E0 A4 A2 3D  6..%.R=..".....=
+00F0: F0 E8 39 CF 81 C0 7B ED   5D 1F 6F C5 D0 0B D7 98  ..9.....].o.....
+
+]]]
+
+[2026-11-18T18:15:53.103+0100] [] [WARNING] [NCLS-SECURITY-05054] [javax.enterprise.system.security.ssl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153103] [levelValue: 900] [[
+  The SSL certificate with alias trustcenterclass2caii has expired: [
+[
+  Version: V3
+  Subject: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 21650130515055782963454959811093059003574116295384049443863128973799375760595392693556645895243358980916324166779830972897832456900760147377961870126555163592184251111367927296196206162029383026347106483660070105243464885850554765437389387877313184965343725413730626349242415403208154207296728438680202735183259910301677751638550743133603500527758016486299416551240579531222047111823307832021880777989762839281904578466890762463365278153065924714004395550188208487922490482570312641622280698284013993515706636389929266076965076845823494796193470255067395567049642086237439025996639796001118867820566529106380053972213
+  public exponent: 65537
+  Validity: [From: Thu Jan 12 14:38:43 WET 2006,
+               To: Wed Dec 31 23:59:59 WEST 2025]
+  Issuer: CN=TC TrustCenter Class 2 CA II, OU=TC TrustCenter Class 2 CA, O=TC TrustCenter GmbH, C=DE
+  SerialNumber: [    2e6a0001 00021fd7 52212c11 5c3b]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen: no limit
+]
+
+[2]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://www.trustcenter.de/crl/v2/tc_class_2_ca_II.crl, URIName: ldap://www.trustcenter.de/CN=TC%20TrustCenter%20Class%202%20CA%20II,O=TC%20TrustCenter%20GmbH,OU=rootcerts,DC=trustcenter,DC=de?certificateRevocationList?base?]
+]]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: E3 AB 54 4C 80 A1 DB 56   43 B7 91 4A CB F3 82 7A  ..TL...VC..J...z
+0010: 13 5C 08 AB                                        .\..
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 8C D7 DF 7E EE 1B 80 10   B3 83 F5 DB 11 EA 6B 4B  ..............kK
+0010: A8 92 18 D9 F7 07 39 F5   2C BE 06 75 7A 68 53 15  ......9.,..uzhS.
+0020: 1C EA 4A ED 5E FC 23 B2   13 A0 D3 09 FF F6 F6 2E  ..J.^.#.........
+0030: 6B 41 71 79 CD E2 6D FD   AE 59 6B 85 1D B8 4E 22  kAqy..m..Yk...N"
+0040: 9A ED 66 39 6E 4B 94 E6   55 FC 0B 1B 8B 77 C1 53  ..f9nK..U....w.S
+0050: 13 66 89 D9 28 D6 8B F3   45 4A 63 B7 FD 7B 0B 61  .f..(...EJc....a
+0060: 5D B8 6D BE C3 DC 5B 79   D2 ED 86 E5 A2 4D BE 5E  ].m...[y.....M.^
+0070: 74 7C 6A ED 16 38 1F 7F   58 81 5A 1A EB 32 88 2D  t.j..8..X.Z..2.-
+0080: B2 F3 39 77 80 AF 5E B6   61 75 29 DB 23 4D 88 CA  ..9w..^.au).#M..
+0090: 50 28 CB 85 D2 D3 10 A2   59 6E D3 93 54 00 7A A2  P(......Yn..T.z.
+00A0: 46 95 86 05 9C A9 19 98   E5 31 72 0C 00 E2 67 D9  F........1r...g.
+00B0: 40 E0 24 33 7B 6F 2C B9   5C AB 65 9D 2C AC 76 EA  @.$3.o,.\.e.,.v.
+00C0: 35 99 F5 97 B9 0F 24 EC   C7 76 21 28 65 AE 57 E8  5.....$..v!(e.W.
+00D0: 07 88 75 4A 56 A0 D2 05   3A A4 E6 8D 92 88 2C F3  ..uJV...:.....,.
+00E0: F2 E1 C1 C6 61 DB 41 C5   C7 9B F7 0E 1A 51 45 C2  ....a.A......QE.
+00F0: 61 6B DC 64 27 17 8C 5A   B7 DA 74 28 CD 97 E4 BD  ak.d'..Z..t(....
+
+]]]
+
+[2026-11-18T18:15:53.127+0100] [] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153127] [levelValue: 800] Java security manager is disabled.
+
+[2026-11-18T18:15:53.127+0100] [] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153127] [levelValue: 800] Entering Security Startup Service.
+
+[2026-11-18T18:15:53.127+0100] [] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153127] [levelValue: 800] Loading policy provider fish.payara.security.jacc.provider.PolicyProviderImpl.
+
+[2026-11-18T18:15:53.168+0100] [] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153168] [levelValue: 800] Security Service(s) started successfully.
+
+[2026-11-18T18:15:53.576+0100] [] [INFO] [AS-WEB-GLUE-00198] [jakarta.enterprise.web] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153576] [levelValue: 800] Created HTTP listener http-listener on host/port 0.0.0.0:8085
+
+[2026-11-18T18:15:53.619+0100] [] [INFO] [AS-WEB-GLUE-00200] [jakarta.enterprise.web] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153619] [levelValue: 800] Created virtual server server
+
+[2026-11-18T18:15:53.936+0100] [] [INFO] [AS-WEB-GLUE-00201] [jakarta.enterprise.web] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022153936] [levelValue: 800] Virtual server server loaded default web module
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[2026-11-18T18:15:55.729+0100] [] [WARNING] [] [jakarta.enterprise.web.util] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022155729] [levelValue: 900] The web application [unknown] registered the JDBC driver [org.sqlite.JDBC] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+
+[2026-11-18T18:15:55.771+0100] [] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022155771] [levelValue: 800] WELD-000900: 5.0.1 (Final)
+
+[2026-11-18T18:15:58.116+0100] [] [INFO] [] [fish.payara.micro.cdi.extension.ClusteredCDIEventBusImpl] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022158116] [levelValue: 800] Clustered CDI Event bus initialized
+
+[2026-11-18T18:15:58.343+0100] [] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022158343] [levelValue: 800] payments-service was successfully deployed in 5,849 milliseconds.
+
+[2026-11-18T18:15:58.346+0100] [] [INFO] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022158346] [levelValue: 800] Deployed 1 archive(s)
+
+[2026-11-18T18:15:58.434+0100] [] [INFO] [AS-WEB-GLUE-00130] [jakarta.enterprise.web] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022158434] [levelValue: 800] Invalid Session Management Configuration for non-distributable app [payments-service] - defaulting to memory: persistence-type = [hazelcast] / persistenceFrequency = [web-method] / persistenceScope = [modified-session]
+
+[2026-11-18T18:15:58.643+0100] [] [INFO] [] [org.glassfish.soteria.servlet.SamRegistrationInstaller] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022158643] [levelValue: 800] Initializing Soteria 3.0.1.payara-p1 for context ''
+
+[2026-11-18T18:15:59.071+0100] [] [INFO] [AS-WEB-GLUE-00172] [jakarta.enterprise.web] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022159071] [levelValue: 800] Loading application [payments-service] at [/]
+
+[2026-11-18T18:16:04.186+0100] [] [INFO] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022164186] [levelValue: 800] {
+    "Instance Configuration": {
+        "Host": "DESKTOP-FKUFIVH",
+        "Http Port(s)": "8085",
+        "Https Port(s)": "",
+        "Instance Name": "Tame-Medusafish",
+        "Instance Group": "MicroShoal",
+        "Hazelcast Member UUID": "f6855c8b-e1bf-46b2-bbc5-2b672868f14f",
+        "Deployed": [
+            {
+                "Name": "payments-service",
+                "Type": "war",
+                "Context Root": "/"
+            }
+        ]
+    }
+}
+
+[2026-11-18T18:16:04.192+0100] [] [INFO] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022164192] [levelValue: 800]
+Payara Micro URLs:
+http://DESKTOP-FKUFIVH:8085/
+
+'payments-service' REST Endpoints:
+GET     /api/application.wadl
+GET     /api/payments
+POST    /api/payments
+GET     /api/payments/order/{orderId}
+GET     /openapi/
+GET     /openapi/application.wadl
+
+
+
+[2026-11-18T18:16:04.192+0100] [] [INFO] [] [PayaraMicro] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1795022164192] [levelValue: 800] Payara Micro 6.2023.12 #badassmicrofish (build 9) ready in 26,882 (ms)
